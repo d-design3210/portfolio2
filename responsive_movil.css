@@ -1,0 +1,112 @@
+@media(max-width: 450px){
+  .header-container img{
+    width: 128px;
+    height: 55px;
+  }
+
+  h1{
+    font-size: 35px;
+  }
+  
+  h2{
+    font-size: 15px;
+  }
+  
+  p{
+    font-size: 8px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  h1{
+    text-align: center;
+    font-weight: 100
+  }
+  .header-icons{
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  .pc{
+    display: none !important;
+  }
+  
+  .sp{
+    display: block !important;
+  }
+
+  .header-nav{
+    z-index: 1;
+    position: relative;
+  }
+
+  .header-nav ul{
+    display: block;
+    text-align: center;
+    margin-top:  180px;
+  }
+
+  .header-nav li{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .header-nav li a{
+    color :black;
+    text-align: center;
+    padding-right: 100px;
+  }
+
+  .main-visual-container{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .main-visual{
+    position: absolute;
+    z-index: 0;
+  }
+  
+
+  .service-container{
+    width: 100%; 
+  }
+  
+  .service-wrap{
+    padding-top: 550px;
+  }
+
+  .service-contents{
+    display: block;
+    margin:  0 auto;
+  }
+
+  .service-contents img{
+    height: 79px;
+    width: 83px;
+  }
+
+  .service-contents ul{
+    margin:  0 auto;
+    width: 50%;
+  }
+  .service-contents .text-area{
+    margin: 0 auto;
+  }
+
+  .parson-nav{
+    display: block;
+  }
+  .parson-nav ul{
+    display: block;
+    border-bottom: 1px solid #000;
+    text-align: center;
+  }
+}
